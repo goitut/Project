@@ -7,14 +7,14 @@
 </head>
   <body>
     <h1>
-      this is the first webpage heading!
+      This is the first webpage heading!
   </h1>
   <hr>
   <p>
     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique distinctio obcaecati commodi molestiae recusandae doloribus velit excepturi necessitatibus voluptatem porro voluptate, impedit et, cupiditate deserunt, enim ipsam beatae nemo modi.
   </p>
   <a 
-  href="www.zindua.com">Zindua School</a>
+  href="https://zinduaschool.com/">Zindua School</a>
   <h2>
     First day at schol 
   </h2>
@@ -193,7 +193,7 @@
 
       <!-- Forms codes -->
      <h3>FACEBOOK LOGIN</h3>
-     <form>
+     
       <label for="email">Email or phone number</label>
       <input type="text" name="email" id="email" placeholder="goinaath@gmail.com"  required>
       <br>
@@ -201,7 +201,85 @@
       <label for="password">password</label>
       <input type="password" name="password" placeholder="123456789">
       <br>
+
+          <p>Section</p>
+    <input type="radio" id="day" name="section" value="day">
+    <label for="radio">Day</label>
+
+    <input type="radio" id="boarding" name="section" value="boarding">
+    <label for="radio">Boarding</label>
+    <br>
+
+    <!-- Radio inputs -->
+      <h1>interests</h1>
+    <input type="checkbox" id="coding" name="interest" value="coding">
+    <label for="coding">coding</label>
+
+     <input type="checkbox" id="reading" name="interest" value="reading">
+    <label for="reading">Reading</label>
+
+     <input type="checkbox" id="playing" name="interest" value="playing">
+    <label for="reading">Playing</label>
+
+     <input type="checkbox" id="dancing" name="interest" value="dancing">
+    <label for="dancing">Dancing</label>
+    <br>
+
+    <!-- select dropdowns -->
+     <label for="country">country</label>
+     <select name="country" id="country">
+      <option value=""></option>
+      <option value="usa">USA</option>
+      <option value="canada">CANADA</option>
+      <option value="kenya">KENYA</option>
+      <option value="ethiopia">ETHIOPIA</option>
+      <option value="ssd">SOUTH SUDAN</option>
+     </select>
+
+      <!-- select dropdowns -->
+     <label for="club">club</label>
+     <select name="club" id="club">
+      <option value=""></option>
+      <option value="chel">CHELSEA</option>
+      <option value="man u">MANSHESTER UNITED</option>
+      <option value="arsenal">ARSENAL</option>
+      <option value="new">NEW CASTLE</option>
+      <option value="liverpool">LIVERPOOL</option>
+     </select>
+  <br>
+  <br>
+     <!-- textarea -->
+      <label for="message">Message</label>
+      <br>
+      <textarea name="message" id="message" cols="15" rows="5"></textarea>
+        <br>
+      <!-- grouping form elements -->
+     <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" required placeholder="Enter your first name">
+        <label for="mname">Middle Name</label>
+        <input type="text" id="mname" required placeholder="Enter your middle name">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" required placeholder="Enter your last name">
+      </fieldset>
+
+      <fieldset>
+        <legend>choices</legend>
+        <label for="newsletter">Online</label>
+        <input type="checkbox" name="checkbox" id="checkbox" required >
+        <label for="newsletter">Newspaper</label>
+        <input type="checkbox" name="checkbox" id="checkbox" required >
+      </fieldset>
+     </form>
+
+
       <button type="button">Submit</button>
+      <br>
+      <br>
+<hr>
+   
      </form>
   </main>
   <br>
